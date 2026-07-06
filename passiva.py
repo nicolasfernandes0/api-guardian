@@ -43,7 +43,7 @@ tab_rest, tab_soap, tab_monitor = st.tabs([
 # ABA 1: PASSIVA - ENVIAR REST
 # ==========================================
 with tab_rest:
-    st.header("Integração Passiva: Consumo REST")
+    st.header("Integração Ativa: REST")
     
     col1, col2 = st.columns([1, 4])
     with col1:
