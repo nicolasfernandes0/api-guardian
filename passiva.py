@@ -33,7 +33,7 @@ st.sidebar.code(f"{api_base_url}/api/logs", language="http")
 
 # Criando as três abas principais do sistema
 tab_http, tab_soap_wsdl, tab_monitor = st.tabs([
-    "📤 Passiva (HTTP: REST / SOAP )", 
+    "📤 Ativa (HTTP: REST / SOAP )", 
     "📤 Passiva (SOAP via WSDL Toledo)", 
     "📥 Ativa (Monitor de Recebimento)"
 ])
