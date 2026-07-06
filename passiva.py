@@ -33,7 +33,7 @@ st.sidebar.code(f"{api_base_url}/api/logs", language="http")
 
 # Criando as três abas principais do sistema
 tab_http, tab_soap_wsdl, tab_monitor = st.tabs([
-    "📤 Passiva (HTTP Genérico: REST / SOAP Manual)", 
+    "📤 Passiva (HTTP: REST / SOAP )", 
     "📤 Passiva (SOAP via WSDL Toledo)", 
     "📥 Ativa (Monitor de Recebimento)"
 ])
@@ -42,8 +42,8 @@ tab_http, tab_soap_wsdl, tab_monitor = st.tabs([
 # ABA 1: Ativa - HTTP GENÉRICO (REST & SOAP MANUAL)
 # ==========================================
 with tab_http:
-    st.header("Integração Ativa: Cliente HTTP Genérico")
-    st.markdown("Envie requisições REST (JSON) ou monte a sua própria estrutura SOAP (XML) manualmente.")
+    st.header("Integração Ativa: Cliente HTTP ")
+    st.markdown("Envie requisições REST (JSON) ou monte a sua própria estrutura SOAP (XML).")
     
     col_meth, col_url, col_type = st.columns([1, 3, 1])
     with col_meth:
